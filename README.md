@@ -74,7 +74,7 @@ Python 3.8+（纯标准库）｜ 麦当劳中国官方 MCP Server（Streamable H
 
 ## 关于作者
 
-刘宇燕（灵魂攻城狮）· WorkBuddy 驱动开发实践者
+灵魂工程师 · WorkBuddy 驱动开发实践者
 
 - 个人博客：[blog.aiclawonline.website](https://blog.aiclawonline.website/)——AI 工程实战、MCP/Agent 开发实录
 - 公众号：「沐沐ai智能」——AI 实操交付与开发实录
