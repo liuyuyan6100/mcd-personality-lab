@@ -46,6 +46,10 @@ python src/run.py --demo --output my-card.html
 | `output/mcd-personality-MCP-FCDE86BA-demo.html` | 演示模式产物：麦辣鸡型人格（52 单 / ¥1980.9 / 辣度耐受 74） |
 | `output/mcd-personality-MCP-15F9CE1F.html` | 真实 Token 跑通产物：无订单账号正确降级为「麦门新信徒」待鉴定卡 |
 
+演示模式产物实际长这样（移动端优先，可截图分享）：
+
+![麦辣鸡型人格鉴定卡（演示模式）](assets/card-demo-malaji.png)
+
 ## 九型麦门人格
 
 麦辣鸡型 · 巨无霸型 · 麦乐鸡型 · 穷鬼套餐型 · 甜筒型 · 深夜食堂型 · 探险家型 · 早安型 · 板烧型（+ 麦门新信徒）
