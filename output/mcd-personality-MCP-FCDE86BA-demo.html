@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>麦门人格鉴定卡 · 麦辣鸡型人格</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#FFF6E5;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#27251F;padding:24px 12px}
+.card{max-width:460px;margin:0 auto;background:#FFFFFF;border-radius:20px;overflow:hidden;box-shadow:0 2px 0 #F0E4CC}
+.hero{background:#DA291C;color:#FFFFFF;padding:26px 22px 22px;position:relative}
+.hero .lab{font-size:11px;letter-spacing:3px;opacity:.85;font-weight:500}
+.hero h1{font-size:26px;font-weight:500;margin-top:6px;letter-spacing:1px}
+.hero .sub{font-size:12px;opacity:.85;margin-top:8px}
+.hero .meta{margin-top:14px;font-size:11px;opacity:.75;display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,.25);padding-top:10px}
+.badge-demo{position:absolute;top:18px;right:16px;background:#FFC72C;color:#27251F;font-size:10px;font-weight:500;padding:3px 8px;border-radius:99px}
+.body{padding:22px}
+.type-block{background:#FFF3D6;border:1.5px solid #FFC72C;border-radius:14px;padding:18px 16px;text-align:center}
+.type-block .t-name{font-size:23px;font-weight:500;color:#A41E14}
+.type-block .t-title{display:inline-block;margin-top:8px;background:#DA291C;color:#FFFFFF;font-size:11px;padding:3px 10px;border-radius:99px}
+.verdict{margin-top:14px;font-size:13px;line-height:1.9;color:#4A443C;text-align:justify}
+.section-title{font-size:13px;font-weight:500;margin:22px 0 12px;color:#27251F;display:flex;align-items:center;gap:8px}
+.section-title::before{content:"";width:4px;height:14px;background:#FFC72C;border-radius:2px}
+.dim-row{display:flex;align-items:center;margin-bottom:10px;font-size:12px}
+.dim-row .d-label{width:64px;color:#4A443C;flex-shrink:0}
+.dim-row .d-track{flex:1;height:8px;background:#F5EDDC;border-radius:4px;overflow:hidden}
+.dim-row .d-fill{height:100%;background:#DA291C;border-radius:4px}
+.dim-row .d-val{width:38px;text-align:right;color:#A41E14;font-weight:500;flex-shrink:0}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.stat{background:#FAF6EC;border-radius:12px;padding:12px 8px;text-align:center}
+.stat .s-val{font-size:17px;font-weight:500;color:#A41E14}
+.stat .s-key{font-size:10px;color:#8A8378;margin-top:4px}
+.top-item{display:flex;align-items:center;padding:9px 0;border-bottom:1px dashed #F0E4CC;font-size:13px}
+.top-item:last-child{border-bottom:none}
+.top-item .rank{width:22px;height:22px;border-radius:6px;background:#FFC72C;color:#27251F;font-size:11px;font-weight:500;display:flex;align-items:center;justify-content:center;margin-right:10px;flex-shrink:0}
+.top-item .t-name{flex:1;color:#27251F}
+.top-item .t-bar{width:90px;height:6px;background:#F5EDDC;border-radius:3px;overflow:hidden;margin:0 10px}
+.top-item .t-bar i{display:block;height:100%;background:#DA291C;border-radius:3px}
+.top-item .t-cnt{font-size:11px;color:#8A8378;width:30px;text-align:right;flex-shrink:0}
+.panel{margin-top:16px;background:#FAF6EC;border-radius:12px;padding:14px}
+.panel .p-title{font-size:12px;font-weight:500;color:#4A443C;margin-bottom:8px}
+.panel .p-line{font-size:12px;color:#6B6459;line-height:1.8}
+.traits{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:12px}
+.traits span{background:#FFFFFF;border:1px solid #FFC72C;color:#A41E14;font-size:11px;padding:3px 10px;border-radius:99px}
+.advice{margin-top:12px;font-size:12px;color:#8A8378;text-align:center;line-height:1.7}
+.share{margin-top:20px;background:#27251F;border-radius:14px;padding:18px 16px;text-align:center}
+.share .slogan{color:#FFC72C;font-size:16px;font-weight:500;letter-spacing:.5px}
+.share .hint{color:#8A8378;font-size:11px;margin-top:8px}
+.footer{padding:16px 22px 22px;text-align:center;font-size:10px;color:#B5AE9F;line-height:1.8}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="hero"><div class="badge-demo">DEMO 演示数据</div>
+    <div class="lab">MCD PERSONALITY LAB</div>
+    <h1>麦门人格鉴定所</h1>
+    <div class="sub">基于麦当劳 MCP 真实订单数据的人格鉴定</div>
+    <div class="meta"><span>鉴定编号 MCP-FCDE86BA</span><span>2025.10.20 ~ 2026.10.10</span></div>
+  </div>
+  <div class="body">
+    <div class="type-block">
+      <div class="t-name">麦辣鸡型人格</div>
+      <div class="t-title">外酥内嫩 · 不可貌相</div>
+      <div class="verdict">麦门庇佑。过去 12 个月，你在麦门神殿叩首 52 次，奉上香火钱 1981 元，其中 28% 的餐盘里燃着同一簇火。麦辣鸡腿堡是你的权杖——外人看你温和稳妥，唯有麦门知道，你的辣藏在酥皮之下，咬到底才会呛出眼泪。麦门纪年载：外酥内嫩者，不可貌相。</div>
+      <div class="traits"><span>辣度耐受点满</span><span>表面温和</span><span>底线清晰</span></div>
+      <div class="advice">麦门建议：下次试试辣翅蘸甜筒酱，麦门称此法为「冰火赦免」。</div>
+    </div>
+    <div class="section-title">人格五维</div>
+    <div class="dim-row"><div class="d-label">犒赏力</div><div class="d-track"><div class="d-fill" style="width:69.3%"></div></div><div class="d-val">69</div></div><div class="dim-row"><div class="d-label">猎奇度</div><div class="d-track"><div class="d-fill" style="width:36.9%"></div></div><div class="d-val">37</div></div><div class="dim-row"><div class="d-label">夜猫指数</div><div class="d-track"><div class="d-fill" style="width:44.2%"></div></div><div class="d-val">44</div></div><div class="dim-row"><div class="d-label">辣度耐受</div><div class="d-track"><div class="d-fill" style="width:74.0%"></div></div><div class="d-val">74</div></div><div class="dim-row"><div class="d-label">甜度依赖</div><div class="d-track"><div class="d-fill" style="width:12.9%"></div></div><div class="d-val">13</div></div>
+    <div class="section-title">麦门数据面板</div>
+    <div class="stats"><div class="stat"><div class="s-val">52</div><div class="s-key">麦门叩首(次)</div></div><div class="stat"><div class="s-val">1981 元</div><div class="s-key">香火钱</div></div><div class="stat"><div class="s-val">38.1 元</div><div class="s-key">客单价</div></div><div class="stat"><div class="s-val">44%</div><div class="s-key">深夜订单占比</div></div><div class="stat"><div class="s-val">20</div><div class="s-key">吃过的餐品数</div></div><div class="stat"><div class="s-val">麦辣鸡腿堡</div><div class="s-key">本命餐品</div></div></div>
+    <div class="section-title">本命餐品榜</div>
+    <div><div class="top-item"><div class="rank">1</div><div class="t-name">麦辣鸡腿堡</div><div class="t-bar"><i style="width:100%"></i></div><div class="t-cnt">×23</div></div><div class="top-item"><div class="rank">2</div><div class="t-name">麦辣鸡翅(2块)</div><div class="t-bar"><i style="width:61%"></i></div><div class="t-cnt">×14</div></div><div class="top-item"><div class="rank">3</div><div class="t-name">1+1随心配(双层吉士+美式)</div><div class="t-bar"><i style="width:48%"></i></div><div class="t-cnt">×11</div></div><div class="top-item"><div class="rank">4</div><div class="t-name">大薯</div><div class="t-bar"><i style="width:43%"></i></div><div class="t-cnt">×10</div></div><div class="top-item"><div class="rank">5</div><div class="t-name">可乐(中)</div><div class="t-bar"><i style="width:35%"></i></div><div class="t-cnt">×8</div></div></div>
+    
+    <div class="panel"><div class="p-title">麦享会积分档案</div><div class="p-line">累计积分 1024 · 可用 0 · 已过期 24</div><div class="p-line">积分会过期，麦门的爱不会</div></div>
+    <div class="share">
+      <div class="slogan">「 我的辣，酥皮之下才见面。 」</div>
+      <div class="hint">截图保存 · 分享给同修 · 麦门庇佑</div>
+    </div>
+  </div>
+  <div class="footer">由「麦门人格鉴定所」生成 · WorkBuddy × 麦当劳 MCP · 2026-10-22 23:23<br>数据链路：mcd-mcp order-list / list-nutrition-foods / query-my-account</div>
+</div>
+</body>
+</html>
